@@ -1,5 +1,4 @@
 from sqlalchemy import create_engine
-
-DATABASE_URL = "postgresql+psycopg://localhost/manigpt_api_db"
+from core.config import DATABASE_URL
 
 engine = create_engine(DATABASE_URL)
